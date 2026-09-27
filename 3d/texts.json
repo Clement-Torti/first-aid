@@ -1,0 +1,1430 @@
+{
+ "es": [
+  {
+   "f": "sangrado_0",
+   "t": "Aprieta fuerte la herida. Con una tela limpia o con tu mano"
+  },
+  {
+   "f": "sangrado_1",
+   "t": "Llama al {N}. O que alguien llame por ti"
+  },
+  {
+   "f": "sangrado_2",
+   "t": "No sueltes nunca. Si se empapa, añade más tela encima"
+  },
+  {
+   "f": "sangrado_3",
+   "t": "Venda bien apretado. Por encima de la tela"
+  },
+  {
+   "f": "sangrado_4",
+   "t": "¿No para? Torniquete. Solo brazo o pierna. 5 cm por encima. Anota la hora"
+  },
+  {
+   "f": "sangrado_5",
+   "t": "Túmbale y abrígale. Sigue apretando hasta que llegue ayuda"
+  },
+  {
+   "f": "quemadura_0",
+   "t": "Aléjale del calor. Si es eléctrica: corta la corriente antes"
+  },
+  {
+   "f": "quemadura_1",
+   "t": "Agua fría, 20 minutos. Del grifo. Ni helada ni hielo"
+  },
+  {
+   "f": "quemadura_2",
+   "t": "Quita anillos y reloj. Antes de que se hinche. La ropa pegada, no"
+  },
+  {
+   "f": "quemadura_3",
+   "t": "Cubre sin apretar. Film transparente o tela limpia"
+  },
+  {
+   "f": "quemadura_4",
+   "t": "Nada de hielo ni cremas. Y no revientes las ampollas"
+  },
+  {
+   "f": "quemadura_5",
+   "t": "Llama al {N} si…. Es grande, en cara, manos o en un niño"
+  },
+  {
+   "f": "caida_0",
+   "t": "No le muevas. Sobre todo si le duele el cuello o la espalda"
+  },
+  {
+   "f": "caida_1",
+   "t": "Inmoviliza tal cual. No intentes enderezar"
+  },
+  {
+   "f": "caida_2",
+   "t": "Frío envuelto en tela. 20 minutos. Nunca hielo directo"
+  },
+  {
+   "f": "caida_3",
+   "t": "Llama al {N} si…. Hueso visible, deformidad o golpe en la cabeza"
+  },
+  {
+   "f": "inconsciente_0",
+   "t": "Háblale y toca sus hombros. Fuerte: «¿Me oyes?»"
+  },
+  {
+   "f": "inconsciente_1",
+   "t": "Grita pidiendo ayuda. No te quedes solo"
+  },
+  {
+   "f": "inconsciente_2",
+   "t": "Abre la vía aérea. Mano en la frente, dos dedos levantan la barbilla"
+  },
+  {
+   "f": "inconsciente_3",
+   "t": "¿Respira?. Mira, escucha y siente 10 segundos"
+  },
+  {
+   "f": "inconsciente_4",
+   "t": "¿Respira normal?. Si solo boquea = NO"
+  },
+  {
+   "f": "atragantamiento_0",
+   "t": "¿Quién es?. Toca una opción"
+  },
+  {
+   "f": "pecho_0",
+   "t": "Llama al {N}. Opresión, dolor al brazo, mandíbula o espalda"
+  },
+  {
+   "f": "pecho_1",
+   "t": "Siéntale, que no se mueva. Apoyado y tranquilo"
+  },
+  {
+   "f": "pecho_2",
+   "t": "Afloja la ropa. Cuello y cinturón"
+  },
+  {
+   "f": "pecho_3",
+   "t": "Aspirina masticada. Solo si no es alérgico"
+  },
+  {
+   "f": "pecho_4",
+   "t": "No le dejes solo. Si deja de respirar:"
+  },
+  {
+   "f": "alergia_0",
+   "t": "Llama al {N}. Hinchazón, le cuesta respirar, mareo"
+  },
+  {
+   "f": "alergia_1",
+   "t": "Adrenalina en el muslo. Por fuera, con ropa. Cuenta hasta 10"
+  },
+  {
+   "f": "alergia_2",
+   "t": "Túmbale, piernas arriba. Si le cuesta respirar: mejor sentado"
+  },
+  {
+   "f": "alergia_3",
+   "t": "¿No mejora en 5 min?. Segunda dosis si la tiene"
+  },
+  {
+   "f": "convulsion_0",
+   "t": "Aparta lo peligroso. Muebles y objetos. A él no le muevas"
+  },
+  {
+   "f": "convulsion_1",
+   "t": "Protege su cabeza. Algo blando debajo"
+  },
+  {
+   "f": "convulsion_2",
+   "t": "No le sujetes. Y nada en la boca"
+  },
+  {
+   "f": "convulsion_3",
+   "t": "Cronometra. Más de 5 minutos = {N}"
+  },
+  {
+   "f": "convulsion_4",
+   "t": "Cuando pare: de lado. Y vigila que respira"
+  },
+  {
+   "f": "ictus_0",
+   "t": "Pide que sonría. ¿Un lado de la boca cae?"
+  },
+  {
+   "f": "ictus_1",
+   "t": "Que levante los brazos. ¿Uno baja solo?"
+  },
+  {
+   "f": "ictus_2",
+   "t": "Que diga una frase. ¿Habla raro o no entiende?"
+  },
+  {
+   "f": "ictus_3",
+   "t": "Un solo signo: {N} YA. Anota la hora. Nada de comer ni beber"
+  },
+  {
+   "f": "rcp_0",
+   "t": "Llama al {N}. Pon el altavoz y deja el móvil al lado"
+  },
+  {
+   "f": "rcp_1",
+   "t": "Pide un DEA. Desfibrilador. Que alguien lo traiga"
+  },
+  {
+   "f": "rcp_2",
+   "t": "Centro del pecho. Una mano encima de la otra"
+  },
+  {
+   "f": "rcp_3",
+   "t": "Hunde 5 cm, brazos rectos. Fuerte. Deja que el pecho suba"
+  },
+  {
+   "f": "rcp_4",
+   "t": "Empuja al ritmo. Sin parar hasta que llegue ayuda"
+  },
+  {
+   "f": "pls_0",
+   "t": "Llama al {N}. Pon el altavoz"
+  },
+  {
+   "f": "pls_1",
+   "t": "Su brazo cercano en L. Doblado hacia arriba"
+  },
+  {
+   "f": "pls_2",
+   "t": "Su otra mano a la mejilla. Y dobla su rodilla lejana"
+  },
+  {
+   "f": "pls_3",
+   "t": "Tira de la rodilla hacia ti. Gira todo el cuerpo de lado"
+  },
+  {
+   "f": "pls_4",
+   "t": "Así. Vigila que respira. Si deja de respirar:"
+  },
+  {
+   "f": "atrA_0",
+   "t": "¿Puede toser? Que tosa. Anímale. No le golpees todavía"
+  },
+  {
+   "f": "atrA_1",
+   "t": "5 golpes en la espalda. Inclinado adelante. Entre los omóplatos"
+  },
+  {
+   "f": "atrA_2",
+   "t": "5 compresiones abdomen. Puño sobre el ombligo. Hacia dentro y arriba"
+  },
+  {
+   "f": "atrA_3",
+   "t": "Alterna 5 y 5. Hasta que salga. Que alguien llame al {N}"
+  },
+  {
+   "f": "atrB_0",
+   "t": "5 golpes en la espalda. Boca abajo en tu antebrazo, cabeza más baja"
+  },
+  {
+   "f": "atrB_1",
+   "t": "5 compresiones en el pecho. Boca arriba. Dos dedos en el centro"
+  },
+  {
+   "f": "atrB_2",
+   "t": "Alterna 5 y 5. Que alguien llame al {N}"
+  },
+  {
+   "f": "done",
+   "t": "Quédate a su lado. Hasta que llegue la ayuda. Si empeora, llama al {N}."
+  },
+  {
+   "f": "late",
+   "t": "Más de 5 minutos. Llama al {N}."
+  }
+ ],
+ "en": [
+  {
+   "f": "sangrado_0",
+   "t": "Press hard on the wound. With a clean cloth or your hand"
+  },
+  {
+   "f": "sangrado_1",
+   "t": "Call {N}. Or get someone to call"
+  },
+  {
+   "f": "sangrado_2",
+   "t": "Never let go. If it soaks through, add more cloth on top"
+  },
+  {
+   "f": "sangrado_3",
+   "t": "Bandage it tight. Over the cloth"
+  },
+  {
+   "f": "sangrado_4",
+   "t": "Still bleeding? Tourniquet. Arm or leg only. 5 cm above. Note the time"
+  },
+  {
+   "f": "sangrado_5",
+   "t": "Lay them down, keep warm. Keep pressing until help arrives"
+  },
+  {
+   "f": "quemadura_0",
+   "t": "Move away from the heat. If electrical: cut the power first"
+  },
+  {
+   "f": "quemadura_1",
+   "t": "Cool water, 20 minutes. Tap water. Not icy, no ice"
+  },
+  {
+   "f": "quemadura_2",
+   "t": "Remove rings and watch. Before it swells. Leave stuck clothing"
+  },
+  {
+   "f": "quemadura_3",
+   "t": "Cover loosely. Cling film or a clean cloth"
+  },
+  {
+   "f": "quemadura_4",
+   "t": "No ice, no creams. And don't pop blisters"
+  },
+  {
+   "f": "quemadura_5",
+   "t": "Call {N} if…. Large, on the face, hands, or a child"
+  },
+  {
+   "f": "caida_0",
+   "t": "Don't move them. Especially if the neck or back hurts"
+  },
+  {
+   "f": "caida_1",
+   "t": "Keep it still as it is. Don't try to straighten it"
+  },
+  {
+   "f": "caida_2",
+   "t": "Cold pack in a cloth. 20 minutes. Never ice on skin"
+  },
+  {
+   "f": "caida_3",
+   "t": "Call {N} if…. Bone showing, deformity or head injury"
+  },
+  {
+   "f": "inconsciente_0",
+   "t": "Talk and tap their shoulders. Loudly: “Can you hear me?”"
+  },
+  {
+   "f": "inconsciente_1",
+   "t": "Shout for help. Don't stay alone"
+  },
+  {
+   "f": "inconsciente_2",
+   "t": "Open the airway. Hand on the forehead, two fingers lift the chin"
+  },
+  {
+   "f": "inconsciente_3",
+   "t": "Breathing?. Look, listen and feel for 10 seconds"
+  },
+  {
+   "f": "inconsciente_4",
+   "t": "Breathing normally?. Only gasping = NO"
+  },
+  {
+   "f": "atragantamiento_0",
+   "t": "Who is it?. Tap one"
+  },
+  {
+   "f": "pecho_0",
+   "t": "Call {N}. Pressure, pain to the arm, jaw or back"
+  },
+  {
+   "f": "pecho_1",
+   "t": "Sit them down, keep still. Supported and calm"
+  },
+  {
+   "f": "pecho_2",
+   "t": "Loosen clothing. Collar and belt"
+  },
+  {
+   "f": "pecho_3",
+   "t": "Chew an aspirin. Only if not allergic"
+  },
+  {
+   "f": "pecho_4",
+   "t": "Stay with them. If they stop breathing:"
+  },
+  {
+   "f": "alergia_0",
+   "t": "Call {N}. Swelling, trouble breathing, dizziness"
+  },
+  {
+   "f": "alergia_1",
+   "t": "Adrenaline in the thigh. Outer side, through clothes. Count to 10"
+  },
+  {
+   "f": "alergia_2",
+   "t": "Lay down, legs up. If breathing is hard: sit up instead"
+  },
+  {
+   "f": "alergia_3",
+   "t": "No better after 5 min?. Second dose if available"
+  },
+  {
+   "f": "convulsion_0",
+   "t": "Clear the area. Furniture and objects. Don't move them"
+  },
+  {
+   "f": "convulsion_1",
+   "t": "Protect their head. Something soft underneath"
+  },
+  {
+   "f": "convulsion_2",
+   "t": "Don't hold them down. And nothing in the mouth"
+  },
+  {
+   "f": "convulsion_3",
+   "t": "Time it. Over 5 minutes = {N}"
+  },
+  {
+   "f": "convulsion_4",
+   "t": "When it stops: on their side. And check breathing"
+  },
+  {
+   "f": "ictus_0",
+   "t": "Ask them to smile. Does one side droop?"
+  },
+  {
+   "f": "ictus_1",
+   "t": "Raise both arms. Does one drift down?"
+  },
+  {
+   "f": "ictus_2",
+   "t": "Say a simple sentence. Slurred or confused?"
+  },
+  {
+   "f": "ictus_3",
+   "t": "Any sign: call {N} NOW. Note the time. No food or drink"
+  },
+  {
+   "f": "rcp_0",
+   "t": "Call {N}. Speaker on, phone beside you"
+  },
+  {
+   "f": "rcp_1",
+   "t": "Get an AED. Defibrillator. Send someone for it"
+  },
+  {
+   "f": "rcp_2",
+   "t": "Centre of the chest. One hand on top of the other"
+  },
+  {
+   "f": "rcp_3",
+   "t": "Push 5 cm, arms straight. Hard. Let the chest rise"
+  },
+  {
+   "f": "rcp_4",
+   "t": "Push to the beat. Don't stop until help arrives"
+  },
+  {
+   "f": "pls_0",
+   "t": "Call {N}. Put it on speaker"
+  },
+  {
+   "f": "pls_1",
+   "t": "Near arm in an L. Bent upwards"
+  },
+  {
+   "f": "pls_2",
+   "t": "Other hand to their cheek. And bend the far knee"
+  },
+  {
+   "f": "pls_3",
+   "t": "Pull the knee towards you. Roll the whole body onto its side"
+  },
+  {
+   "f": "pls_4",
+   "t": "That's it. Check breathing. If they stop breathing:"
+  },
+  {
+   "f": "atrA_0",
+   "t": "Can they cough? Let them. Encourage it. Don't hit yet"
+  },
+  {
+   "f": "atrA_1",
+   "t": "5 back blows. Lean them forward. Between the shoulder blades"
+  },
+  {
+   "f": "atrA_2",
+   "t": "5 abdominal thrusts. Fist above the navel. In and up"
+  },
+  {
+   "f": "atrA_3",
+   "t": "Alternate 5 and 5. Until it comes out. Get someone to call {N}"
+  },
+  {
+   "f": "atrB_0",
+   "t": "5 back blows. Face down on your forearm, head lower"
+  },
+  {
+   "f": "atrB_1",
+   "t": "5 chest thrusts. Face up. Two fingers in the centre"
+  },
+  {
+   "f": "atrB_2",
+   "t": "Alternate 5 and 5. Get someone to call {N}"
+  },
+  {
+   "f": "done",
+   "t": "Stay with them. Until help arrives. If it gets worse, call {N}."
+  },
+  {
+   "f": "late",
+   "t": "Over 5 minutes. Call {N}."
+  }
+ ],
+ "fr": [
+  {
+   "f": "sangrado_0",
+   "t": "Appuie fort sur la plaie. Avec un tissu propre ou ta main"
+  },
+  {
+   "f": "sangrado_1",
+   "t": "Appelle le {N}. Ou demande à quelqu'un d'appeler"
+  },
+  {
+   "f": "sangrado_2",
+   "t": "Ne lâche jamais. Si ça traverse, ajoute du tissu par-dessus"
+  },
+  {
+   "f": "sangrado_3",
+   "t": "Bande bien serré. Par-dessus le tissu"
+  },
+  {
+   "f": "sangrado_4",
+   "t": "Ça ne s'arrête pas ? Garrot. Bras ou jambe seulement. 5 cm au-dessus. Note l'heure"
+  },
+  {
+   "f": "sangrado_5",
+   "t": "Allonge-le et couvre-le. Continue d'appuyer jusqu'aux secours"
+  },
+  {
+   "f": "quemadura_0",
+   "t": "Éloigne-le de la chaleur. Si électrique : coupe le courant d'abord"
+  },
+  {
+   "f": "quemadura_1",
+   "t": "Eau froide, 20 minutes. Du robinet. Ni glacée ni glaçons"
+  },
+  {
+   "f": "quemadura_2",
+   "t": "Enlève bagues et montre. Avant que ça gonfle. Vêtements collés : non"
+  },
+  {
+   "f": "quemadura_3",
+   "t": "Couvre sans serrer. Film alimentaire ou tissu propre"
+  },
+  {
+   "f": "quemadura_4",
+   "t": "Ni glace ni crème. Et ne perce pas les cloques"
+  },
+  {
+   "f": "quemadura_5",
+   "t": "Appelle le {N} si…. Grande, au visage, aux mains ou chez un enfant"
+  },
+  {
+   "f": "caida_0",
+   "t": "Ne le bouge pas. Surtout si le cou ou le dos fait mal"
+  },
+  {
+   "f": "caida_1",
+   "t": "Immobilise tel quel. N'essaie pas de redresser"
+  },
+  {
+   "f": "caida_2",
+   "t": "Froid dans un tissu. 20 minutes. Jamais de glace directe"
+  },
+  {
+   "f": "caida_3",
+   "t": "Appelle le {N} si…. Os visible, déformation ou choc à la tête"
+  },
+  {
+   "f": "inconsciente_0",
+   "t": "Parle-lui, touche ses épaules. Fort : « Tu m’entends ? »"
+  },
+  {
+   "f": "inconsciente_1",
+   "t": "Crie à l'aide. Ne reste pas seul"
+  },
+  {
+   "f": "inconsciente_2",
+   "t": "Libère les voies aériennes. Main sur le front, deux doigts sous le menton"
+  },
+  {
+   "f": "inconsciente_3",
+   "t": "Respire-t-il ?. Regarde, écoute, sens pendant 10 secondes"
+  },
+  {
+   "f": "inconsciente_4",
+   "t": "Respire normalement ?. S'il ne fait que haleter = NON"
+  },
+  {
+   "f": "atragantamiento_0",
+   "t": "Qui est-ce ?. Touche une option"
+  },
+  {
+   "f": "pecho_0",
+   "t": "Appelle le {N}. Serrement, douleur au bras, à la mâchoire ou au dos"
+  },
+  {
+   "f": "pecho_1",
+   "t": "Assieds-le, sans bouger. Adossé et calme"
+  },
+  {
+   "f": "pecho_2",
+   "t": "Desserre ses vêtements. Col et ceinture"
+  },
+  {
+   "f": "pecho_3",
+   "t": "Aspirine à croquer. Seulement s'il n'est pas allergique"
+  },
+  {
+   "f": "pecho_4",
+   "t": "Ne le laisse pas seul. S'il arrête de respirer :"
+  },
+  {
+   "f": "alergia_0",
+   "t": "Appelle le {N}. Gonflement, mal à respirer, vertige"
+  },
+  {
+   "f": "alergia_1",
+   "t": "Adrénaline dans la cuisse. Côté extérieur, à travers les vêtements. Compte jusqu'à 10"
+  },
+  {
+   "f": "alergia_2",
+   "t": "Allonge-le, jambes surélevées. S'il respire mal : plutôt assis"
+  },
+  {
+   "f": "alergia_3",
+   "t": "Pas mieux après 5 min ?. Deuxième dose s'il en a une"
+  },
+  {
+   "f": "convulsion_0",
+   "t": "Écarte ce qui est dangereux. Meubles et objets. Lui, ne le bouge pas"
+  },
+  {
+   "f": "convulsion_1",
+   "t": "Protège sa tête. Quelque chose de mou dessous"
+  },
+  {
+   "f": "convulsion_2",
+   "t": "Ne le retiens pas. Et rien dans la bouche"
+  },
+  {
+   "f": "convulsion_3",
+   "t": "Chronomètre. Plus de 5 minutes = {N}"
+  },
+  {
+   "f": "convulsion_4",
+   "t": "Quand ça s'arrête : sur le côté. Et vérifie qu'il respire"
+  },
+  {
+   "f": "ictus_0",
+   "t": "Demande-lui de sourire. Un côté de la bouche tombe ?"
+  },
+  {
+   "f": "ictus_1",
+   "t": "Lever les deux bras. Un bras retombe ?"
+  },
+  {
+   "f": "ictus_2",
+   "t": "Dire une phrase simple. Il parle mal ou ne comprend pas ?"
+  },
+  {
+   "f": "ictus_3",
+   "t": "Un seul signe : {N} TOUT DE SUITE. Note l'heure. Ni manger ni boire"
+  },
+  {
+   "f": "rcp_0",
+   "t": "Appelle le {N}. Haut-parleur, téléphone à côté de toi"
+  },
+  {
+   "f": "rcp_1",
+   "t": "Demande un DAE. Défibrillateur. Que quelqu'un l'apporte"
+  },
+  {
+   "f": "rcp_2",
+   "t": "Centre de la poitrine. Une main sur l'autre"
+  },
+  {
+   "f": "rcp_3",
+   "t": "Enfonce de 5 cm, bras tendus. Fort. Laisse la poitrine remonter"
+  },
+  {
+   "f": "rcp_4",
+   "t": "Appuie en rythme. Sans t'arrêter jusqu'aux secours"
+  },
+  {
+   "f": "pls_0",
+   "t": "Appelle le {N}. Mets le haut-parleur"
+  },
+  {
+   "f": "pls_1",
+   "t": "Son bras proche en L. Plié vers le haut"
+  },
+  {
+   "f": "pls_2",
+   "t": "Son autre main sur sa joue. Et plie son genou éloigné"
+  },
+  {
+   "f": "pls_3",
+   "t": "Tire le genou vers toi. Fais rouler tout le corps sur le côté"
+  },
+  {
+   "f": "pls_4",
+   "t": "Voilà. Vérifie qu'il respire. S'il arrête de respirer :"
+  },
+  {
+   "f": "atrA_0",
+   "t": "Peut-il tousser ? Laisse-le. Encourage-le. Ne tape pas encore"
+  },
+  {
+   "f": "atrA_1",
+   "t": "5 claques dans le dos. Penché en avant. Entre les omoplates"
+  },
+  {
+   "f": "atrA_2",
+   "t": "5 compressions abdominales. Poing au-dessus du nombril. Vers toi et vers le haut"
+  },
+  {
+   "f": "atrA_3",
+   "t": "Alterne 5 et 5. Jusqu'à ce que ça sorte. Qu'on appelle le {N}"
+  },
+  {
+   "f": "atrB_0",
+   "t": "5 claques dans le dos. À plat ventre sur ton avant-bras, tête plus basse"
+  },
+  {
+   "f": "atrB_1",
+   "t": "5 compressions thoraciques. Sur le dos. Deux doigts au centre"
+  },
+  {
+   "f": "atrB_2",
+   "t": "Alterne 5 et 5. Qu'on appelle le {N}"
+  },
+  {
+   "f": "done",
+   "t": "Reste à ses côtés. Jusqu'à l'arrivée des secours. Si ça s'aggrave, appelle le {N}."
+  },
+  {
+   "f": "late",
+   "t": "Plus de 5 minutes. Appelle le {N}."
+  }
+ ],
+ "pt": [
+  {
+   "f": "sangrado_0",
+   "t": "Aperte forte o ferimento. Com um pano limpo ou com a mão"
+  },
+  {
+   "f": "sangrado_1",
+   "t": "Ligue para o {N}. Ou peça para alguém ligar"
+  },
+  {
+   "f": "sangrado_2",
+   "t": "Nunca solte. Se encharcar, coloque mais pano por cima"
+  },
+  {
+   "f": "sangrado_3",
+   "t": "Enfaixe bem apertado. Por cima do pano"
+  },
+  {
+   "f": "sangrado_4",
+   "t": "Não para? Torniquete. Só braço ou perna. 5 cm acima. Anote a hora"
+  },
+  {
+   "f": "sangrado_5",
+   "t": "Deite e agasalhe. Continue apertando até a ajuda chegar"
+  },
+  {
+   "f": "quemadura_0",
+   "t": "Afaste do calor. Se for elétrica: desligue a energia antes"
+  },
+  {
+   "f": "quemadura_1",
+   "t": "Água fria, 20 minutos. Da torneira. Nem gelada nem gelo"
+  },
+  {
+   "f": "quemadura_2",
+   "t": "Tire anéis e relógio. Antes de inchar. Roupa grudada, não"
+  },
+  {
+   "f": "quemadura_3",
+   "t": "Cubra sem apertar. Filme plástico ou pano limpo"
+  },
+  {
+   "f": "quemadura_4",
+   "t": "Nada de gelo nem pomadas. E não estoure as bolhas"
+  },
+  {
+   "f": "quemadura_5",
+   "t": "Ligue para o {N} se…. For grande, no rosto, nas mãos ou em criança"
+  },
+  {
+   "f": "caida_0",
+   "t": "Não mova a pessoa. Principalmente se doer o pescoço ou as costas"
+  },
+  {
+   "f": "caida_1",
+   "t": "Imobilize como está. Não tente endireitar"
+  },
+  {
+   "f": "caida_2",
+   "t": "Frio envolto em pano. 20 minutos. Nunca gelo direto"
+  },
+  {
+   "f": "caida_3",
+   "t": "Ligue para o {N} se…. Osso exposto, deformidade ou pancada na cabeça"
+  },
+  {
+   "f": "inconsciente_0",
+   "t": "Fale e toque nos ombros. Alto: “Você me ouve?”"
+  },
+  {
+   "f": "inconsciente_1",
+   "t": "Grite por ajuda. Não fique sozinho"
+  },
+  {
+   "f": "inconsciente_2",
+   "t": "Abra as vias aéreas. Mão na testa, dois dedos levantam o queixo"
+  },
+  {
+   "f": "inconsciente_3",
+   "t": "Respira?. Olhe, ouça e sinta por 10 segundos"
+  },
+  {
+   "f": "inconsciente_4",
+   "t": "Respira normalmente?. Se só puxa o ar = NÃO"
+  },
+  {
+   "f": "atragantamiento_0",
+   "t": "Quem é?. Toque numa opção"
+  },
+  {
+   "f": "pecho_0",
+   "t": "Ligue para o {N}. Aperto, dor no braço, mandíbula ou costas"
+  },
+  {
+   "f": "pecho_1",
+   "t": "Sente a pessoa, sem se mexer. Apoiada e calma"
+  },
+  {
+   "f": "pecho_2",
+   "t": "Afrouxe a roupa. Gola e cinto"
+  },
+  {
+   "f": "pecho_3",
+   "t": "Aspirina mastigada. Só se não for alérgico"
+  },
+  {
+   "f": "pecho_4",
+   "t": "Não deixe sozinho. Se parar de respirar:"
+  },
+  {
+   "f": "alergia_0",
+   "t": "Ligue para o {N}. Inchaço, falta de ar, tontura"
+  },
+  {
+   "f": "alergia_1",
+   "t": "Adrenalina na coxa. Na parte de fora, por cima da roupa. Conte até 10"
+  },
+  {
+   "f": "alergia_2",
+   "t": "Deite, pernas para cima. Se tiver falta de ar: melhor sentado"
+  },
+  {
+   "f": "alergia_3",
+   "t": "Não melhora em 5 min?. Segunda dose, se tiver"
+  },
+  {
+   "f": "convulsion_0",
+   "t": "Afaste o que é perigoso. Móveis e objetos. A pessoa, não mova"
+  },
+  {
+   "f": "convulsion_1",
+   "t": "Proteja a cabeça. Algo macio embaixo"
+  },
+  {
+   "f": "convulsion_2",
+   "t": "Não segure. E nada na boca"
+  },
+  {
+   "f": "convulsion_3",
+   "t": "Marque o tempo. Mais de 5 minutos = {N}"
+  },
+  {
+   "f": "convulsion_4",
+   "t": "Quando parar: de lado. E veja se respira"
+  },
+  {
+   "f": "ictus_0",
+   "t": "Peça para sorrir. Um lado da boca cai?"
+  },
+  {
+   "f": "ictus_1",
+   "t": "Levantar os dois braços. Um desce sozinho?"
+  },
+  {
+   "f": "ictus_2",
+   "t": "Dizer uma frase. Fala enrolado ou não entende?"
+  },
+  {
+   "f": "ictus_3",
+   "t": "Um só sinal: {N} JÁ. Anote a hora. Nada de comer ou beber"
+  },
+  {
+   "f": "rcp_0",
+   "t": "Ligue para o {N}. Viva-voz e o celular ao lado"
+  },
+  {
+   "f": "rcp_1",
+   "t": "Peça um DEA. Desfibrilador. Alguém que traga"
+  },
+  {
+   "f": "rcp_2",
+   "t": "Centro do peito. Uma mão sobre a outra"
+  },
+  {
+   "f": "rcp_3",
+   "t": "Afunde 5 cm, braços retos. Forte. Deixe o peito voltar"
+  },
+  {
+   "f": "rcp_4",
+   "t": "Empurre no ritmo. Sem parar até a ajuda chegar"
+  },
+  {
+   "f": "pls_0",
+   "t": "Ligue para o {N}. Coloque no viva-voz"
+  },
+  {
+   "f": "pls_1",
+   "t": "O braço mais perto em L. Dobrado para cima"
+  },
+  {
+   "f": "pls_2",
+   "t": "A outra mão no rosto. E dobre o joelho mais longe"
+  },
+  {
+   "f": "pls_3",
+   "t": "Puxe o joelho para você. Vire o corpo todo de lado"
+  },
+  {
+   "f": "pls_4",
+   "t": "Assim. Veja se respira. Se parar de respirar:"
+  },
+  {
+   "f": "atrA_0",
+   "t": "Consegue tossir? Deixe tossir. Incentive. Não bata ainda"
+  },
+  {
+   "f": "atrA_1",
+   "t": "5 tapas nas costas. Inclinado para frente. Entre as omoplatas"
+  },
+  {
+   "f": "atrA_2",
+   "t": "5 compressões no abdômen. Punho acima do umbigo. Para dentro e para cima"
+  },
+  {
+   "f": "atrA_3",
+   "t": "Alterne 5 e 5. Até sair. Peça para alguém ligar para o {N}"
+  },
+  {
+   "f": "atrB_0",
+   "t": "5 tapas nas costas. De bruços no seu antebraço, cabeça mais baixa"
+  },
+  {
+   "f": "atrB_1",
+   "t": "5 compressões no peito. De barriga para cima. Dois dedos no centro"
+  },
+  {
+   "f": "atrB_2",
+   "t": "Alterne 5 e 5. Peça para alguém ligar para o {N}"
+  },
+  {
+   "f": "done",
+   "t": "Fique ao lado. Até a ajuda chegar. Se piorar, ligue para o {N}."
+  },
+  {
+   "f": "late",
+   "t": "Mais de 5 minutos. Ligue para o {N}."
+  }
+ ],
+ "de": [
+  {
+   "f": "sangrado_0",
+   "t": "Fest auf die Wunde drücken. Mit sauberem Tuch oder der Hand"
+  },
+  {
+   "f": "sangrado_1",
+   "t": "{N} anrufen. Oder jemanden anrufen lassen"
+  },
+  {
+   "f": "sangrado_2",
+   "t": "Nie loslassen. Durchgeblutet? Mehr Stoff darauflegen"
+  },
+  {
+   "f": "sangrado_3",
+   "t": "Fest verbinden. Über dem Tuch"
+  },
+  {
+   "f": "sangrado_4",
+   "t": "Hört nicht auf? Abbinden. Nur Arm oder Bein. 5 cm darüber. Uhrzeit notieren"
+  },
+  {
+   "f": "sangrado_5",
+   "t": "Hinlegen und zudecken. Weiter drücken, bis Hilfe kommt"
+  },
+  {
+   "f": "quemadura_0",
+   "t": "Weg von der Hitze. Bei Strom: zuerst abschalten"
+  },
+  {
+   "f": "quemadura_1",
+   "t": "Kühles Wasser, 20 Minuten. Leitungswasser. Nicht eiskalt, kein Eis"
+  },
+  {
+   "f": "quemadura_2",
+   "t": "Ringe und Uhr abnehmen. Bevor es anschwillt. Festklebende Kleidung nicht"
+  },
+  {
+   "f": "quemadura_3",
+   "t": "Locker abdecken. Frischhaltefolie oder sauberes Tuch"
+  },
+  {
+   "f": "quemadura_4",
+   "t": "Kein Eis, keine Cremes. Und Blasen nicht aufstechen"
+  },
+  {
+   "f": "quemadura_5",
+   "t": "{N} anrufen, wenn…. Groß, im Gesicht, an den Händen oder bei Kindern"
+  },
+  {
+   "f": "caida_0",
+   "t": "Nicht bewegen. Vor allem bei Nacken- oder Rückenschmerzen"
+  },
+  {
+   "f": "caida_1",
+   "t": "So ruhigstellen, wie es ist. Nicht gerade richten"
+  },
+  {
+   "f": "caida_2",
+   "t": "Kälte in ein Tuch gewickelt. 20 Minuten. Nie Eis direkt"
+  },
+  {
+   "f": "caida_3",
+   "t": "{N} anrufen, wenn…. Knochen sichtbar, Fehlstellung oder Kopfverletzung"
+  },
+  {
+   "f": "inconsciente_0",
+   "t": "Ansprechen, Schultern berühren. Laut: „Hören Sie mich?“"
+  },
+  {
+   "f": "inconsciente_1",
+   "t": "Laut um Hilfe rufen. Nicht allein bleiben"
+  },
+  {
+   "f": "inconsciente_2",
+   "t": "Atemwege frei machen. Hand auf die Stirn, zwei Finger heben das Kinn"
+  },
+  {
+   "f": "inconsciente_3",
+   "t": "Atmet die Person?. Sehen, hören, fühlen: 10 Sekunden"
+  },
+  {
+   "f": "inconsciente_4",
+   "t": "Normale Atmung?. Nur Schnappatmung = NEIN"
+  },
+  {
+   "f": "atragantamiento_0",
+   "t": "Wer ist es?. Tippe auf eine Option"
+  },
+  {
+   "f": "pecho_0",
+   "t": "{N} anrufen. Enge, Schmerz in Arm, Kiefer oder Rücken"
+  },
+  {
+   "f": "pecho_1",
+   "t": "Hinsetzen, nicht bewegen. Angelehnt und ruhig"
+  },
+  {
+   "f": "pecho_2",
+   "t": "Kleidung lockern. Kragen und Gürtel"
+  },
+  {
+   "f": "pecho_3",
+   "t": "Aspirin kauen lassen. Nur ohne Allergie"
+  },
+  {
+   "f": "pecho_4",
+   "t": "Nicht allein lassen. Wenn die Atmung aussetzt:"
+  },
+  {
+   "f": "alergia_0",
+   "t": "{N} anrufen. Schwellung, Atemnot, Schwindel"
+  },
+  {
+   "f": "alergia_1",
+   "t": "Adrenalin in den Oberschenkel. Außenseite, durch die Kleidung. Bis 10 zählen"
+  },
+  {
+   "f": "alergia_2",
+   "t": "Hinlegen, Beine hoch. Bei Atemnot: lieber sitzen"
+  },
+  {
+   "f": "alergia_3",
+   "t": "Nach 5 Min. nicht besser?. Zweite Dosis, falls vorhanden"
+  },
+  {
+   "f": "convulsion_0",
+   "t": "Gefahren entfernen. Möbel und Gegenstände. Die Person nicht bewegen"
+  },
+  {
+   "f": "convulsion_1",
+   "t": "Kopf schützen. Etwas Weiches darunter"
+  },
+  {
+   "f": "convulsion_2",
+   "t": "Nicht festhalten. Und nichts in den Mund"
+  },
+  {
+   "f": "convulsion_3",
+   "t": "Zeit stoppen. Über 5 Minuten = {N}"
+  },
+  {
+   "f": "convulsion_4",
+   "t": "Danach: auf die Seite. Und Atmung prüfen"
+  },
+  {
+   "f": "ictus_0",
+   "t": "Lächeln lassen. Hängt ein Mundwinkel?"
+  },
+  {
+   "f": "ictus_1",
+   "t": "Beide Arme heben. Sinkt einer ab?"
+  },
+  {
+   "f": "ictus_2",
+   "t": "Einen Satz sagen lassen. Verwaschen oder verwirrt?"
+  },
+  {
+   "f": "ictus_3",
+   "t": "Ein Zeichen reicht: SOFORT {N}. Uhrzeit notieren. Nichts essen oder trinken"
+  },
+  {
+   "f": "rcp_0",
+   "t": "{N} anrufen. Lautsprecher an, Handy daneben"
+  },
+  {
+   "f": "rcp_1",
+   "t": "AED holen lassen. Defibrillator. Jemand soll ihn bringen"
+  },
+  {
+   "f": "rcp_2",
+   "t": "Mitte der Brust. Eine Hand auf die andere"
+  },
+  {
+   "f": "rcp_3",
+   "t": "5 cm tief, Arme gestreckt. Kräftig. Brust wieder heben lassen"
+  },
+  {
+   "f": "rcp_4",
+   "t": "Im Takt drücken. Nicht aufhören, bis Hilfe kommt"
+  },
+  {
+   "f": "pls_0",
+   "t": "{N} anrufen. Lautsprecher an"
+  },
+  {
+   "f": "pls_1",
+   "t": "Nahen Arm im L ablegen. Nach oben angewinkelt"
+  },
+  {
+   "f": "pls_2",
+   "t": "Andere Hand an die Wange. Und fernes Knie beugen"
+  },
+  {
+   "f": "pls_3",
+   "t": "Am Knie zu dir ziehen. Den ganzen Körper auf die Seite drehen"
+  },
+  {
+   "f": "pls_4",
+   "t": "So. Atmung beobachten. Wenn die Atmung aussetzt:"
+  },
+  {
+   "f": "atrA_0",
+   "t": "Kann husten? Husten lassen. Ermutigen. Noch nicht schlagen"
+  },
+  {
+   "f": "atrA_1",
+   "t": "5 Schläge auf den Rücken. Vorbeugen lassen. Zwischen die Schulterblätter"
+  },
+  {
+   "f": "atrA_2",
+   "t": "5 Oberbauchstöße. Faust über dem Nabel. Nach innen und oben"
+  },
+  {
+   "f": "atrA_3",
+   "t": "5 und 5 abwechseln. Bis es draußen ist. Jemand soll {N} anrufen"
+  },
+  {
+   "f": "atrB_0",
+   "t": "5 Schläge auf den Rücken. Bauchlage auf deinem Unterarm, Kopf tiefer"
+  },
+  {
+   "f": "atrB_1",
+   "t": "5 Brustkorbstöße. Rückenlage. Zwei Finger in der Mitte"
+  },
+  {
+   "f": "atrB_2",
+   "t": "5 und 5 abwechseln. Jemand soll {N} anrufen"
+  },
+  {
+   "f": "done",
+   "t": "Bleib bei der Person. Bis Hilfe kommt. Wird es schlimmer, ruf {N} an."
+  },
+  {
+   "f": "late",
+   "t": "Über 5 Minuten. {N} anrufen."
+  }
+ ],
+ "it": [
+  {
+   "f": "sangrado_0",
+   "t": "Premi forte sulla ferita. Con un panno pulito o con la mano"
+  },
+  {
+   "f": "sangrado_1",
+   "t": "Chiama il {N}. O fai chiamare qualcuno"
+  },
+  {
+   "f": "sangrado_2",
+   "t": "Non mollare mai. Se si inzuppa, aggiungi altro panno sopra"
+  },
+  {
+   "f": "sangrado_3",
+   "t": "Fascia ben stretto. Sopra il panno"
+  },
+  {
+   "f": "sangrado_4",
+   "t": "Non si ferma? Laccio. Solo braccio o gamba. 5 cm sopra. Segna l'ora"
+  },
+  {
+   "f": "sangrado_5",
+   "t": "Sdraialo e coprilo. Continua a premere finché arrivano i soccorsi"
+  },
+  {
+   "f": "quemadura_0",
+   "t": "Allontanalo dal calore. Se elettrica: togli prima la corrente"
+  },
+  {
+   "f": "quemadura_1",
+   "t": "Acqua fresca, 20 minuti. Del rubinetto. Né gelata né ghiaccio"
+  },
+  {
+   "f": "quemadura_2",
+   "t": "Togli anelli e orologio. Prima che si gonfi. Vestiti attaccati no"
+  },
+  {
+   "f": "quemadura_3",
+   "t": "Copri senza stringere. Pellicola trasparente o panno pulito"
+  },
+  {
+   "f": "quemadura_4",
+   "t": "Niente ghiaccio né creme. E non bucare le vesciche"
+  },
+  {
+   "f": "quemadura_5",
+   "t": "Chiama il {N} se…. È estesa, su viso, mani o in un bambino"
+  },
+  {
+   "f": "caida_0",
+   "t": "Non muoverlo. Soprattutto se fa male il collo o la schiena"
+  },
+  {
+   "f": "caida_1",
+   "t": "Immobilizza così com'è. Non cercare di raddrizzare"
+  },
+  {
+   "f": "caida_2",
+   "t": "Freddo avvolto in un panno. 20 minuti. Mai ghiaccio diretto"
+  },
+  {
+   "f": "caida_3",
+   "t": "Chiama il {N} se…. Osso visibile, deformità o colpo alla testa"
+  },
+  {
+   "f": "inconsciente_0",
+   "t": "Parlagli e toccagli le spalle. Forte: «Mi senti?»"
+  },
+  {
+   "f": "inconsciente_1",
+   "t": "Grida aiuto. Non restare solo"
+  },
+  {
+   "f": "inconsciente_2",
+   "t": "Apri le vie aeree. Mano sulla fronte, due dita sollevano il mento"
+  },
+  {
+   "f": "inconsciente_3",
+   "t": "Respira?. Guarda, ascolta e senti per 10 secondi"
+  },
+  {
+   "f": "inconsciente_4",
+   "t": "Respira normalmente?. Se boccheggia soltanto = NO"
+  },
+  {
+   "f": "atragantamiento_0",
+   "t": "Chi è?. Tocca un'opzione"
+  },
+  {
+   "f": "pecho_0",
+   "t": "Chiama il {N}. Oppressione, dolore a braccio, mandibola o schiena"
+  },
+  {
+   "f": "pecho_1",
+   "t": "Fallo sedere, fermo. Appoggiato e tranquillo"
+  },
+  {
+   "f": "pecho_2",
+   "t": "Allenta i vestiti. Colletto e cintura"
+  },
+  {
+   "f": "pecho_3",
+   "t": "Aspirina da masticare. Solo se non è allergico"
+  },
+  {
+   "f": "pecho_4",
+   "t": "Non lasciarlo solo. Se smette di respirare:"
+  },
+  {
+   "f": "alergia_0",
+   "t": "Chiama il {N}. Gonfiore, fatica a respirare, capogiro"
+  },
+  {
+   "f": "alergia_1",
+   "t": "Adrenalina nella coscia. Lato esterno, sopra i vestiti. Conta fino a 10"
+  },
+  {
+   "f": "alergia_2",
+   "t": "Sdraialo, gambe in alto. Se respira male: meglio seduto"
+  },
+  {
+   "f": "alergia_3",
+   "t": "Non migliora in 5 min?. Seconda dose, se c'è"
+  },
+  {
+   "f": "convulsion_0",
+   "t": "Allontana i pericoli. Mobili e oggetti. Lui non spostarlo"
+  },
+  {
+   "f": "convulsion_1",
+   "t": "Proteggi la testa. Qualcosa di morbido sotto"
+  },
+  {
+   "f": "convulsion_2",
+   "t": "Non trattenerlo. E niente in bocca"
+  },
+  {
+   "f": "convulsion_3",
+   "t": "Cronometra. Oltre 5 minuti = {N}"
+  },
+  {
+   "f": "convulsion_4",
+   "t": "Quando finisce: su un fianco. E controlla che respiri"
+  },
+  {
+   "f": "ictus_0",
+   "t": "Chiedi di sorridere. Un lato della bocca cade?"
+  },
+  {
+   "f": "ictus_1",
+   "t": "Alzare le due braccia. Una scende da sola?"
+  },
+  {
+   "f": "ictus_2",
+   "t": "Dire una frase. Parla male o non capisce?"
+  },
+  {
+   "f": "ictus_3",
+   "t": "Un solo segno: {N} SUBITO. Segna l'ora. Niente cibo né bevande"
+  },
+  {
+   "f": "rcp_0",
+   "t": "Chiama il {N}. Vivavoce e telefono accanto"
+  },
+  {
+   "f": "rcp_1",
+   "t": "Chiedi un DAE. Defibrillatore. Che qualcuno lo porti"
+  },
+  {
+   "f": "rcp_2",
+   "t": "Centro del petto. Una mano sopra l'altra"
+  },
+  {
+   "f": "rcp_3",
+   "t": "Spingi 5 cm, braccia tese. Forte. Lascia risalire il petto"
+  },
+  {
+   "f": "rcp_4",
+   "t": "Spingi a ritmo. Senza fermarti finché arrivano i soccorsi"
+  },
+  {
+   "f": "pls_0",
+   "t": "Chiama il {N}. Metti il vivavoce"
+  },
+  {
+   "f": "pls_1",
+   "t": "Braccio vicino a L. Piegato verso l'alto"
+  },
+  {
+   "f": "pls_2",
+   "t": "L'altra mano sulla guancia. E piega il ginocchio lontano"
+  },
+  {
+   "f": "pls_3",
+   "t": "Tira il ginocchio verso di te. Gira tutto il corpo su un fianco"
+  },
+  {
+   "f": "pls_4",
+   "t": "Così. Controlla che respiri. Se smette di respirare:"
+  },
+  {
+   "f": "atrA_0",
+   "t": "Riesce a tossire? Lascialo. Incoraggialo. Non colpire ancora"
+  },
+  {
+   "f": "atrA_1",
+   "t": "5 colpi sulla schiena. Piegato in avanti. Tra le scapole"
+  },
+  {
+   "f": "atrA_2",
+   "t": "5 compressioni addominali. Pugno sopra l'ombelico. Verso dentro e in alto"
+  },
+  {
+   "f": "atrA_3",
+   "t": "Alterna 5 e 5. Finché esce. Qualcuno chiami il {N}"
+  },
+  {
+   "f": "atrB_0",
+   "t": "5 colpi sulla schiena. A pancia in giù sull'avambraccio, testa più bassa"
+  },
+  {
+   "f": "atrB_1",
+   "t": "5 compressioni al petto. A pancia in su. Due dita al centro"
+  },
+  {
+   "f": "atrB_2",
+   "t": "Alterna 5 e 5. Qualcuno chiami il {N}"
+  },
+  {
+   "f": "done",
+   "t": "Resta accanto a lui. Finché arrivano i soccorsi. Se peggiora, chiama il {N}."
+  },
+  {
+   "f": "late",
+   "t": "Oltre 5 minuti. Chiama il {N}."
+  }
+ ]
+}

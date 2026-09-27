@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+# local tooling / large or regenerable files
+3d/.venv/
+3d/voices/
+3d/preview/
+3d/logs/
+3d/assets/*.glb
+promo/music.wav

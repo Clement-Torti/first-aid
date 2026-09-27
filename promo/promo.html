@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Promo</title>
+<style>
+:root{--spring:cubic-bezier(.32,.72,0,1);--pop:cubic-bezier(.34,1.56,.64,1)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000;color:#fff;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:radial-gradient(120% 70% at 50% 35%,#1b1c22 0%,#000 70%)}
+.glow{position:absolute;left:50%;top:58%;width:1300px;height:1300px;margin:-650px 0 0 -650px;border-radius:50%;background:radial-gradient(circle,rgba(255,69,58,.28),transparent 62%);opacity:0;transition:opacity 1.2s ease,background 1s ease}
+.cap{position:absolute;left:0;right:0;top:120px;text-align:center;padding:0 70px}
+.cap div{font-size:74px;font-weight:700;letter-spacing:-1.8px;line-height:1.05;opacity:0;transform:translateY(40px);transition:all .8s var(--spring)}
+.cap div.on{opacity:1;transform:none}
+.cap small{display:block;font-size:40px;font-weight:500;color:rgba(235,235,245,.6);letter-spacing:-.4px;margin-top:14px}
+.hook{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:26px;text-align:center}
+.hook div{font-size:120px;font-weight:800;letter-spacing:-4px;line-height:1;opacity:0;transform:translateY(60px) scale(.96);transition:all 1s var(--spring)}
+.hook div.on{opacity:1;transform:none}
+.hook .red{color:#ff453a}
+.phone{position:absolute;left:50%;top:420px;width:660px;height:1430px;margin-left:-330px;border-radius:96px;background:#000;
+  box-shadow:0 0 0 14px #1c1c1e,0 0 0 17px #3a3a3c,0 60px 160px rgba(0,0,0,.9);overflow:hidden;transform:translateY(1600px);transition:transform 1.1s var(--spring)}
+.phone.on{transform:none}
+.phone.up{transform:translateY(-40px) scale(1.02)}
+.phone iframe{position:absolute;left:0;top:0;width:393px;height:852px;border:0;transform-origin:0 0;transform:scale(1.6794);background:#000}
+.tap{position:absolute;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;background:rgba(255,255,255,.35);border:4px solid rgba(255,255,255,.8);opacity:0;pointer-events:none;z-index:5}
+.tap.go{animation:tap .9s var(--spring) forwards}
+@keyframes tap{0%{opacity:0;transform:scale(1.6)}25%{opacity:1;transform:scale(.8)}45%{transform:scale(.7)}100%{opacity:0;transform:scale(1.4)}}
+.flags{position:absolute;left:0;right:0;top:330px;display:flex;justify-content:center;gap:16px;opacity:0;transition:opacity .6s}
+.flags.on{opacity:1}
+.flags span{font-size:34px;font-weight:700;padding:10px 22px;border-radius:26px;background:#1c1c1e;color:rgba(235,235,245,.6);transition:all .35s var(--spring)}
+.flags span.on{background:#ff453a;color:#fff;transform:scale(1.08)}
+.end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;opacity:0;transition:opacity .9s ease;background:#000}
+.end.on{opacity:1}
+.icon{width:250px;height:250px;border-radius:58px;background:linear-gradient(160deg,#ff5a4f,#e0241b);display:grid;place-items:center;box-shadow:0 30px 90px rgba(255,69,58,.45);transform:scale(.6);transition:transform 1s var(--pop)}
+.end.on .icon{transform:none}
+.icon svg{width:150px;height:150px}
+.end h1{font-size:96px;font-weight:800;letter-spacing:-3px}
+.end p{font-size:44px;color:rgba(235,235,245,.62);font-weight:500;letter-spacing:-.5px;text-align:center;line-height:1.25}
+.end .pills{display:flex;gap:14px;margin-top:10px}
+.end .pills span{font-size:32px;font-weight:600;padding:12px 24px;border-radius:30px;background:#1c1c1e}
+</style></head>
+<body><div id="stage">
+  <div class="glow" id="glow"></div>
+  <div class="hook" id="hook"><div id="h1">Una emergencia.</div><div id="h2" class="red">Cada segundo<br>cuenta.</div></div>
+  <div class="cap" id="cap"><div id="ct"></div></div>
+  <div class="flags" id="flags"></div>
+  <div class="phone" id="phone"><iframe id="app" src="about:blank"></iframe><div class="tap" id="tap"></div></div>
+  <div class="end" id="end">
+    <div class="icon"><svg viewBox="0 0 64 64"><path d="M32 56C8 40 6 20 20 14c6-3 10 0 12 4 2-4 6-7 12-4 14 6 12 26-12 42z" fill="#fff"/><path d="M35 18L25 34h8l-5 14 12-18h-8z" fill="#ff453a"/></svg></div>
+    <h1>Primeros Auxilios</h1>
+    <p>La guía visual para<br>los primeros minutos.</p>
+    <div class="pills"><span>3D</span><span>Voz</span><span>6 idiomas</span><span>Gratis</span></div>
+  </div>
+</div>
+<script>
+/* Deterministic renderer: window.renderFrame(t) sets every animation, video and timer to virtual time t. */
+const $=id=>document.getElementById(id);
+const app=$('app');
+const K=1.6794;
+let VT=0;const pending=[];
+const later=(dt,fn)=>pending.push([VT+dt,fn]);
+const base=(q,h)=>`../index.html?${q}${h}`;
+function cap(t,sub){const c=$('ct');c.classList.remove('on');later(.26,()=>{c.innerHTML=t+(sub?`<small>${sub}</small>`:'');c.classList.add('on')})}
+function go(h){app.contentWindow.location.hash=h}
+function load(src){app.src=src}
+function tapAt(x,y){const t=$('tap');t.style.left=x*K+'px';t.style.top=y*K+'px';t.classList.remove('go');void t.offsetWidth;t.classList.add('go')}
+const tl=[];const at=(s,f)=>tl.push([s,f]);
+at(0.2,()=>$('h1').classList.add('on'));
+at(1.1,()=>$('h2').classList.add('on'));
+at(2.7,()=>{$('hook').style.transition='opacity .5s';$('hook').style.opacity=0;});
+at(2.9,()=>{$('phone').classList.add('on');$('glow').style.opacity=1;cap('Toca lo que ves.','Ordenado de lo más a lo menos frecuente')});
+at(4.6,()=>tapAt(287,787));
+at(4.95,()=>{go('#/rcp/0');cap('Te guía paso a paso.','Sin textos largos. Solo lo esencial.')});
+at(6.7,()=>go('#/rcp/2'));
+at(8.2,()=>{go('#/rcp/3');cap('Animaciones 3D reales.','Brazos rectos. 5 cm. 110 por minuto.')});
+at(10.2,()=>{go('#/rcp/4');cap('Marca el ritmo por ti.','Sonido y vibración')});
+at(12.4,()=>{load(base('lang=es&num=112','#/sangrado/0'));cap('Hemorragias.')});
+at(13.9,()=>{load(base('lang=es&num=112','#/atrA/1'));cap('Atragantamiento.')});
+at(15.4,()=>{load(base('lang=es&num=112','#/pls/3'));cap('Posición lateral.')});
+const LG=[['es','112','España'],['en','911','USA'],['fr','112','France'],['pt','192','Brasil'],['de','112','Deutschland'],['it','112','Italia']];
+at(16.9,()=>{cap('En tu idioma.','Con el número de emergencia de tu país.');$('flags').innerHTML=LG.map(l=>`<span>${l[2]} · ${l[1]}</span>`).join('');
+  $('flags').style.flexWrap='wrap';$('flags').style.padding='0 60px';$('flags').classList.add('on');$('phone').style.transition='transform 1.1s var(--spring), top .8s var(--spring)';$('phone').style.top='520px'});
+LG.forEach((l,k)=>at(17.2+k*0.75,()=>{load(base(`lang=${l[0]}&num=${l[1]}`,'#/'));[...$('flags').children].forEach((s,j)=>s.classList.toggle('on',j===k))}));
+at(22.0,()=>$('end').classList.add('on'));
+window.DURATION=25.5;
+tl.forEach(e=>pending.push(e));
+
+/* virtual clock inside the app iframe */
+const born=new WeakMap();
+function patchApp(){
+  const w=app.contentWindow;if(!w||w.__v)return;w.__v=1;
+  const timers=[];let id=1;
+  w.__timers=timers;
+  w.setInterval=(fn,ms)=>{const i=id++;timers.push({i,fn,ms,next:VT+ms/1000,rep:1});return i};
+  w.setTimeout=(fn,ms=0)=>{const i=id++;timers.push({i,fn,ms,next:VT+ms/1000,rep:0});return i};
+  w.clearInterval=w.clearTimeout=i=>{const k=timers.findIndex(t=>t.i===i);if(k>=0)timers.splice(k,1)};
+  const D0=Date.now()-VT*1000;w.Date.now=()=>D0+VT*1000;
+}
+app.addEventListener('load',patchApp);
+function runTimers(){
+  const w=app.contentWindow;if(!w||!w.__timers)return;
+  for(let guard=0;guard<50;guard++){
+    const due=w.__timers.filter(t=>t.next<=VT+1e-6).sort((a,b)=>a.next-b.next)[0];if(!due)break;
+    if(due.rep)due.next+=due.ms/1000;else w.__timers.splice(w.__timers.indexOf(due),1);
+    try{due.fn()}catch(e){}
+  }
+}
+function freeze(doc){
+  if(!doc)return [];
+  const out=[];
+  for(const a of doc.getAnimations({subtree:true})){
+    if(!born.has(a))born.set(a,VT);
+    a.pause();
+    const t=(VT-born.get(a))*1000;
+    const d=a.effect&&a.effect.getComputedTiming?a.effect.getComputedTiming():null;
+    a.currentTime=(d&&d.iterations===Infinity&&d.duration)?t%(d.duration*1)+0.0001:t;
+  }
+  for(const v of doc.querySelectorAll('video')){
+    if(!born.has(v))born.set(v,VT);
+    v.pause();v.muted=true;
+    if(v.readyState>=1&&v.duration){
+      const target=(VT-born.get(v))%v.duration;
+      if(Math.abs(v.currentTime-target)>0.001){out.push(new Promise(r=>{const done=()=>r();v.addEventListener('seeked',done,{once:true});setTimeout(done,1500)}));v.currentTime=target}
+    }else out.push(new Promise(r=>{v.addEventListener('loadeddata',()=>r(),{once:true});setTimeout(r,3000)}));
+  }
+  return out;
+}
+const raf=()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
+window.renderFrame=async(t)=>{
+  VT=t;
+  for(let i=0;i<pending.length;){if(pending[i][0]<=VT+1e-6){const f=pending[i][1];pending.splice(i,1);f()}else i++}
+  // wait for iframe navigations to finish loading
+  for(let k=0;k<60&&app.contentDocument&&app.contentDocument.readyState!=='complete';k++)await new Promise(r=>setTimeout(r,50));
+  patchApp();runTimers();
+  const waits=[...freeze(document),...freeze(app.contentDocument)];
+  await Promise.all(waits);
+  freeze(document);freeze(app.contentDocument);
+  await raf();
+  return true;
+};
+app.src=base('lang=es&num=112','#/');
+</script></body></html>
